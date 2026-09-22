@@ -68281,9 +68281,9 @@
         "supports_web_search": false
     },
     "openrouter/z-ai/glm-5.3": {
-        "input_cost_per_token": 8.4e-07,
-        "output_cost_per_token": 2.64e-06,
-        "cache_read_input_token_cost": 1.56e-07,
+        "input_cost_per_token": 7e-07,
+        "output_cost_per_token": 2.2e-06,
+        "cache_read_input_token_cost": 1.3e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 1310720,
         "max_output_tokens": 131072,
@@ -73301,14 +73301,14 @@
         "supports_web_search": false
     },
     "openrouter/~z-ai/glm-latest": {
-        "cache_read_input_token_cost": 1.56e-07,
-        "input_cost_per_token": 8.4e-07,
+        "cache_read_input_token_cost": 1.3e-07,
+        "input_cost_per_token": 7e-07,
         "litellm_provider": "openrouter",
         "max_input_tokens": 1310720,
         "max_output_tokens": 131072,
         "max_tokens": 131072,
         "mode": "chat",
-        "output_cost_per_token": 2.64e-06,
+        "output_cost_per_token": 2.2e-06,
         "source": "https://openrouter.ai/api/v1/models",
         "supports_audio_input": false,
         "supports_function_calling": true,
@@ -75112,6 +75112,7 @@
         "supports_web_search": false
     },
     "openrouter/nex-agi/nex-n2.5-mini:free": {
+        "deprecation_date": "2026-09-25",
         "input_cost_per_token": 0.0,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
@@ -75131,6 +75132,7 @@
         "supports_web_search": false
     },
     "openrouter/nex-agi/nex-n2.5-pro:free": {
+        "deprecation_date": "2026-09-25",
         "input_cost_per_token": 0.0,
         "litellm_provider": "openrouter",
         "max_input_tokens": 262144,
